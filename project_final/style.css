@@ -1,0 +1,211 @@
+.picture{
+    position: relative;
+    z-index: -1;
+}
+.picture .title{
+    position: absolute;
+    bottom: 25%;
+    left: 3%;
+}
+.collapse .navbar-nav .nav-item{
+    position: relative;
+    overflow: hidden;
+}
+.collapse .navbar-nav .nav-item .navbar-nav{
+    position: absolute;
+}
+.collapse .navbar-nav .nav-item .navbar-nav{
+    display: block;
+    opacity: 0;
+    transition: 0.7s;
+}
+.collapse .navbar-nav .nav-item:hover .navbar-nav{
+    display: block;
+    opacity: 1;
+    transition: 0.7s ;
+}
+.collapse .navbar-nav .nav-item:hover{
+    overflow: unset;
+}
+.collapse .navbar-nav .nav-item .navbar-nav .nav-item:hover {
+    background-color: rgb(229, 229, 229);
+}
+.collapse .navbar-nav .nav-item .navbar-nav:hover {
+    overflow: hidden;
+}
+.collapse .navbar-nav .nav-item .text-light{
+    font-weight: 600;
+}
+.collapse .navbar-nav .nav-item .navbar-nav .nav-item{
+    font-weight: 600;
+}
+.collapse .navbar-nav .blue:hover .text-light{
+    color: #6767ff !important;
+}
+.collapse .navbar-nav .blue .navbar-nav .nav-item:hover a{
+    color: rgb(103, 103, 255) !important;
+}
+/* =================================== */
+.collapse .navbar-nav .yellow:hover .text-light{
+    color: orange !important;
+}
+.collapse .navbar-nav .yellow .navbar-nav .nav-item:hover a{
+    color: orange !important;
+}
+/* =================================== */
+.collapse .navbar-nav .red:hover .text-light{
+    color: red !important;
+}
+.collapse .navbar-nav .red .navbar-nav .nav-item:hover a{
+    color: red !important;
+}
+/* =================================== */
+.collapse .navbar-nav .orang-old:hover .text-light{
+    color: #ec6825 !important;
+}
+.collapse .navbar-nav .orang-old .navbar-nav .nav-item:hover a{
+    color: #ec6825 !important;
+}
+/* =================================== */
+.collapse .navbar-nav .purple:hover .text-light{
+    color: #ff00d0 !important;
+}
+.collapse .navbar-nav .purple .navbar-nav .nav-item:hover a{
+    color: #ff00d0 !important;
+}
+/* =================================== */
+.collapse .navbar-nav .green:hover .text-light{
+    color: #50af31 !important;
+}
+.collapse .navbar-nav .green .navbar-nav .nav-item:hover a{
+    color: #50af31 !important;
+}
+/* =================================== */
+main .row .col-12 .col-11{
+    transition: 1s;
+}
+main .row .col-12 .col-11:hover{
+    transform: scale(1.1);
+    box-shadow: 0 0 1000px rgb(0, 0, 0) !important;
+    transition: 1s;
+}
+/* =================================== */
+main .more .col-6 .shadow{
+    transition: 0.8s;
+}
+main .more .col-6 .shadow:hover{
+    transition: 0.8s;
+    transform: scale(1.05);
+    box-shadow: 0px 0px 1000px black !important;
+}
+/* ==================================== */
+footer{
+    background-color: #333a3c;
+}
+footer a:hover{
+    color: #5cc65c !important;
+    transition: 0.7s;
+}
+/* ==================== btn Login ================*/
+#btn-login,
+#btn-signup {
+    font-size: 25px;
+    margin-right: 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    font-weight: 700;
+    background-color: unset;
+}
+#btn-signup {
+    border: 3px solid rgb(255, 255, 255);
+    background-color: rgb(34, 158, 0);
+    border-radius: 15px 0 15px 0;
+    padding: 5px 10px;
+    transition: 0.8s;
+}
+#btn-login:hover {
+    color: rgb(34, 158, 0);
+    text-shadow: 0 0 4px rgb(255, 255, 255);
+}
+#btn-signup:hover {
+    background-color: rgb(34, 158, 0);
+    border: 3px solid rgb(255, 255, 255);
+    color: white;
+    border-radius: 0 15px 0 15px;
+    transition: 0.8s;
+}
+
+/* ============= Form Login, sign up and Forget password ============== */
+header .form-login,
+header .form-signup,
+header .f-password {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(33, 47, 50, 0.9);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header #form-login,
+header #form-signup,
+header #f-password {
+    border-radius: 15px;
+    background-color: #515167;
+    padding: 70px 30px;
+    transition: 1s;
+    position: relative;
+}
+header #form-login i,
+header #form-signup i,
+header #f-password i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+header #form-login:hover,
+header #form-signup:hover,
+header #f-password:hover{
+    box-shadow:0 0 50px rgb(0, 255, 13);
+    border: 3px solid rgb(0, 255, 13);
+    transition: 1s;
+}
+header #form-login a,
+header #form-signup a,
+header #f-password a {
+    float: right;
+    color:white;
+    text-decoration: none;
+}
+header #form-login a:hover,
+header #form-signup a:hover,
+header #f-password a:hover {
+    text-decoration: underline;
+}
+header #form-login .btn-primary,
+header #form-signup .btn-primary,
+header #f-password .btn-primary {
+    background-color: rgb(0, 255, 13) !important;
+    border:  none;
+    border-radius: 10px;
+    color: #333a3c;
+}
+header #form-login .btn-primary:hover,
+header #form-signup .btn-primary:hover,
+header #f-password .btn-primary:hover {
+    background-color: rgb(0, 221, 11) !important;
+}
+.form-control {
+    box-shadow: unset !important;
+    border: none !important;
+}
+/* ========== Only btn Sign Up =========== */
+header #form-signup{
+    padding: 40px 30px;
+}
+header #form-signup a {
+    position: absolute;
+    right: 30px;
+    bottom: 66px;
+}
